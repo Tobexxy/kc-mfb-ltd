@@ -1143,6 +1143,10 @@
                             <p>Do it right now!</p>
                             <h3>Make an Appointment</h3>
                             <form action="https://formsubmit.co/f8054a6f39ba59d9be8c244d3d027252" method="POST" class="row" >
+                                <!-- Honeypot -->
+                                <input type="text" name="_honey" style="display: none;">
+                                <!-- Disable Captcha -->
+                                <input type="hidden" name="_captcha" value="false">
                                 <div class="input-field col-md-6">
                                     <i class="twi-user2"></i>
                                     <input class="required" type="text" name="fullname" placeholder="Your Name">
