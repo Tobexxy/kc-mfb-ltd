@@ -276,37 +276,45 @@
                         <div class="appointment_form">
                             <p>Your email address will not be published*</p>
                             <h3>Send Us a Message</h3>
-                            <form action="#" method="post" class="row" id="contact_form">
+                            <form action="https://formsubmit.co/f8054a6f39ba59d9be8c244d3d027252" method="POST" class="row" >
+                                <input type="hidden" name="_template" value="box">
+                                <!-- Honeypot -->
+                                <input type="text" name="_honey" style="display: none;">
+                                <!-- Disable Captcha -->
+                                <input type="hidden" name="_captcha" value="false">
+
                                 <div class="input-field col-md-6">
                                     <i class="twi-user2"></i>
-                                    <input class="required" type="text" name="con_name" placeholder="Your Name">
+                                    <input class="required" type="text" name="fullname" placeholder="Your Name" required>
                                 </div>
                                 <div class="input-field col-md-6">
                                     <i class="twi-envelope2"></i>
-                                    <input class="required" type="email" name="con_email" placeholder="Email Address">
+                                    <input class="required" type="email" name="email" placeholder="Email Address" required>
                                 </div>
-                                <div class="input-field icRight col-md-12">
-                                    <select class="required" name="con_subject">
-                                        <option selected="selected">Select Subjects</option>
-                                        <option>Finance Consultant</option>
-                                        <option>Business Consultant</option>
-                                        <option>Financial Advices</option>
-                                        <option>Business Growth</option>
+                                <div class="input-field col-md-6">
+                                    <i class="twi-phone2"></i>
+                                    <input type="text" name="phone" placeholder="(080) 1234-5678" required>
+                                </div>
+                                <div class="input-field col-md-6">
+                                    <i class="twi-map-marker-alt2"></i>
+                                    <input type="text" name="location" placeholder="Your Location">
+                                </div>
+                                <div class="input-field col-md-6">
+                                    <select class="required" name="subject">
+                                        <option selected="selected">Subjects</option>
+                                        <option>Loan Product</option>
+                                        <option>Investment Product</option>
+                                        <option>Savings</option>
+                                        <option>Other Enquiries</option>
                                     </select>
                                 </div>
                                 <div class="input-field col-md-12">
-                                    <i class="twi-pen2"></i>
-                                    <textarea class="required" name="con_message" placeholder="Type Your Message"></textarea>
-                                </div>
-                                <div class="col-md-7 input-field">
-                                    <label>
-                                        <input type="checkbox" name="subscribe" value="Also subscribe us">
-                                        <span class="wpcf7-list-item-label">I Agree to get-e- mails about future conferences.</span>
-                                    </label>
+                                    <i class="twi-comment-lines2"></i>
+                                    <textarea class="required" name="message" placeholder="Insert Your Message"></textarea>
                                 </div>
                                 <div class="input-field col-md-12">
-                                    <button type="submit" class="qu_btn">Submit Now</button>
-                                    <div class="con_message"></div>
+                                    <button type="submit" class="qu_btn">Get A Quote</button>
+                                    <!-- <div class="con_message"></div> -->
                                 </div>
                             </form>
                         </div>
