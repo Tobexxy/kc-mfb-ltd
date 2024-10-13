@@ -37,7 +37,7 @@
 .serviceSection01{
 	position: relative;
 	padding: 120px 0;
-	background: url(../images/bg/2.png) no-repeat top center;
+	/* background: url(../images/bg/2.png) no-repeat top center; */
 }
 .boxService{
 	position: relative;

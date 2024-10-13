@@ -32,7 +32,7 @@
     position: relative;
     width: 100%;
     padding: 0;
-    background: url(../images/bg/1.png) no-repeat left top #fff2f3;
+    
 }
 .header01:after{
     position: absolute;
