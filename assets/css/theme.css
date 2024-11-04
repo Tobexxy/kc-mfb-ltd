@@ -5563,3 +5563,6 @@ input[type="checkbox"]:checked ~ span:before {
 }
 
 
+.bigman{
+    color: #0077B7;
+}
