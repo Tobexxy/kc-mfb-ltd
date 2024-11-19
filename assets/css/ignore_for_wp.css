@@ -761,19 +761,19 @@
 .chatNow{
 	position: relative;
 	text-align: center;
-	background: url(../images/bg/16.jpg) no-repeat center center / cover;
+	background: url(../images/team/copy.jpg) no-repeat center center / cover;
 	padding: 310px 35px 52px;
 }
 .chatNow h4{
 	font-size: 24px;
 	line-height: 28px;
-	color: var(--theme-color);
+	color: #ffffff;
 	margin: 0 0 16px;
 }
 .chatNow p{
 	font-size: 18px;
 	line-height: 26px;
-	color: #1a1a1a;
+	color: #ffffff;
 	font-weight: 700;
 	margin: 0 0 30px;
 }
