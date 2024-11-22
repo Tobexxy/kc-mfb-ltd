@@ -1603,6 +1603,7 @@ input[type="checkbox"]:checked ~ span:before {
     -moz-box-shadow:    0px 14px 47px 0px rgba(13, 30, 53, 0.10);
     box-shadow:         0px 14px 47px 0px rgba(13, 30, 53, 0.10);
 }
+
 .tm_social{
     position: absolute;
     left: 0;
@@ -5566,3 +5567,5 @@ input[type="checkbox"]:checked ~ span:before {
 .bigman{
     color: #0077B7;
 }
+
+

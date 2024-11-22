@@ -1,0 +1,207 @@
+/* General styles for the popup */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+
+#popup1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+.popup-content {
+    position: relative;
+}
+#popup .popup-content{
+    line-height: 1.6;
+}
+#popup1 .popup-content{
+    line-height: 1.6;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+#popup p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+#popup1 p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+
+.close-popup:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* Overlay background */
+#popup.show {
+    display: block;
+}
+/* Overlay background */
+#popup1.show {
+    display: block;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+#popup2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+#popup2 .popup-content{
+    line-height: 1.6;
+}
+#popup2 p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+/* Overlay background */
+#popup2.show {
+    display: block;
+}
+
+
+
+#popup3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+#popup3 .popup-content{
+    line-height: 1.6;
+}
+#popup3 p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+/* Overlay background */
+#popup3.show {
+    display: block;
+}
+
+
+
+#popup4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+#popup4 .popup-content{
+    line-height: 1.6;
+}
+#popup4 p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+/* Overlay background */
+#popup4.show {
+    display: block;
+}
+
+
+#popup5 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    display: none; /* Hidden by default */
+}
+#popup5 .popup-content{
+    line-height: 1.6;
+}
+#popup5 p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #d22f31 !important;
+    margin-bottom: 20px !important;
+    text-align: justify !important;
+}
+/* Overlay background */
+#popup5.show {
+    display: block;
+}

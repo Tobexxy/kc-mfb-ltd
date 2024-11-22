@@ -531,6 +531,13 @@
 		padding-left: 35px;
 		padding-right: 30px;
 	}
+	#popup p {
+		font-size: 9px !important;
+		line-height: 2 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
 }
 
 /*------------------------------------------------------------------------------------
@@ -682,6 +689,7 @@
 	.sidebar.lsb{
 	    margin: 0 0 60px;
 	}
+	
 }
 
 /*------------------------------------------------------------------------------------
@@ -1087,4 +1095,72 @@
     	text-align: center;
     	margin: 15px 0 0;
     }
+	#popup p {
+		font-size: 9px !important;
+		line-height: 2 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
+	#popup h1 {
+			font-size: 20px !important;
+	}
+
+	#popup1 p {
+		font-size: 9px !important;
+		line-height: 2 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
+	#popup1 h1 {
+			font-size: 20px !important;
+	}
+	#popup2 p {
+			font-size: 9px !important;
+			line-height: 2 !important;
+			color: #d22f31 !important;
+			margin-bottom: 20px !important;
+			text-align: justify !important;
+	}
+	#popup2 h1 {
+				font-size: 20px !important;
+	}
+	#popup3 p {
+		font-size: 9px !important;
+		line-height: 1.7 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
+	#popup3 h1 {
+			font-size: 20px !important;
+	}
+	#popup4 p {
+		font-size: 9px !important;
+		line-height: 2 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
+	#popup4 h1 {
+			font-size: 20px !important;
+	}
+	#popup5 p {
+		font-size: 9px !important;
+		line-height: 2 !important;
+		color: #d22f31 !important;
+		margin-bottom: 20px !important;
+		text-align: justify !important;
+	}
+	#popup5 h1 {
+			font-size: 20px !important;
+	}
+
+
+	.close-popup{
+		top: -21px;
+		right: 0px;
+	}
+
 }
